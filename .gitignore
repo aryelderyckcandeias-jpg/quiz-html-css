@@ -1,0 +1,8 @@
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependências, caso o projeto evolua para Node
+node_modules/
