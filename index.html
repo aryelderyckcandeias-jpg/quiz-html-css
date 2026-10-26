@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-BR">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quiz para programadores</title>
         <meta name="description" content="Um quiz interativo para testar seus conhecimentos">
         <link rel="stylesheet" href="style.css">
@@ -9,15 +11,15 @@
     <body>
         <header>
             <h1>Quiz interativo para programadores</h1>
-            <p>teste seus conhecimentosem programação e veja qual pontuação você consegue fazer!</p>
+            <p>teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
         </header>
         <main>
           <!--Introdução-->
           <section>
             <h2>Sobre esse quiz</h2>
             <p><strong>Este quiz</strong> foi desenvolvido para testar seus conhecimentos em <em>linguagens de programação</em>, conceitos básicos e mais</p>
-            <p>você encootrara diferentes tipos de perguntas, incluindo múltiplas escolha, texto e pergunitas de data. <br>Desafie-se com este quiz!</p>
-            <p>Você poderá encontrar alguns acrônimos como <abbr title="Hypertexte Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web</p>
+            <p>você encontrará diferentes tipos de perguntas, incluindo múltiplas escolha, texto e perguntas de data. <br>Desafie-se com este quiz!</p>
+            <p>Você poderá encontrar alguns acrônimos como <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web</p>
           </section>
           <!--Pergumta 1: múltipla escolha-->
           <section>
@@ -52,25 +54,25 @@
             </section>
             <!--Pergunta 4: data-->
             <section>
-              <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão?/h2>
+              <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão?</h2>
                 <form>
                   <input type="date" id="p4" name="pergunta4">
                 </form>
             </section>
             <!--Pergunta 5: seleção mútipla-->
             <section>
-              <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programmação?</h2>
+              <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
               <form>
-                <input type="checkbox" name="pergunta5" id="p5" value="Javascript">
+                <input type="checkbox" name="pergunta5" id="p5a" value="Javascript">
                 <label for="p5a">Javascript</label>
 
-                <input type="checkbox" name="pergunta5" id="p5" value="HTML">
+                <input type="checkbox" name="pergunta5" id="p5b" value="HTML">
                 <label for="p5b">HTML</label>
 
-                <input type="checkbox" name="pergunta5" id="p5" value="Java">
+                <input type="checkbox" name="pergunta5" id="p5c" value="Java">
                 <label for="p5c">Java</label>
                 
-                <input type="checkbox" name="pergunta5" id="p5" value="CSS">
+                <input type="checkbox" name="pergunta5" id="p5d" value="CSS">
                 <label for="p5d">CSS</label>
               </form>
             </section>
@@ -117,11 +119,11 @@
                   </tr>
                   <tr>
                     <td>5-7</td>
-                    <td>Bom! Seu conhecimento de programação esta satisfatório </td>
+                    <td>Bom! Seu conhecimento de programação está satisfatório</td>
                   </tr>
                   <tr>
                     <td>8</td>
-                    <td>Perfeito! Você esta muito bem informado sobre programação</td>
+                    <td>Perfeito! Você está muito bem informado sobre programação</td>
                   </tr>
                 </tbody>
                 <tfoot>
@@ -154,7 +156,7 @@
               <form>
                 <fieldset>
                 <legend>
-                  Infomações de contato
+                  Informações de contato
                 </legend>
                 <label for="name">Nome</label>
                 <input type="text" id="name" name="name"><br>
@@ -162,16 +164,15 @@
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email"><br>
 
-                <label for="comentarios">Comentarios</label><br>
-                <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Digite seus comentarios aqui"></textarea>
+                <label for="comentarios">Comentários</label><br>
+                <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea>
                 </fieldset>
               </form>
             </section>
         </main>
         <footer>
-          <p class="paragrafo-footer">&copy Quiz de programação. Todos os direitos resevados</p>
+          <p class="paragrafo-footer">&copy; Quiz de programação. Todos os direitos reservados</p>
           <p class="paragrafo-footer">Para conhecer outros quizzes <a href="https://google.com" target="_blank">clique aqui</a></p>
         </footer>
-        <
     </body>
 </html>
