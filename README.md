@@ -18,7 +18,7 @@ Página estática de um quiz interativo, feita para estudar **HTML semântico**,
 | --- | --- |
 | HTML | `header`, `main`, `section`, `footer`, `abbr`, `details`/`summary`, `table`, `form`, `label for` |
 | Tipos de `input` | `radio`, `checkbox`, `text`, `password`, `date`, `file`, `email` |
-| CSS | Reset com `*`, `flexbox` (`gap`), fontes do Google Fonts (Cabin e Noto Serif), `accent-color` |
+| CSS | Reset com `*`, `flexbox` (`gap`), fonte Cabin do Google Fonts, `accent-color` |
 
 ## Como abrir
 
@@ -45,5 +45,5 @@ Para publicar de graça no **GitHub Pages**: em *Settings → Pages*, escolha a 
 ## Próximos passos
 
 - Adicionar JavaScript para corrigir as respostas e mostrar a pontuação.
-- Tornar o layout responsivo com `@media` e testar a acessibilidade (contraste de cores e navegação por teclado).
+- Tornar o layout responsivo (a página ainda não tem `viewport` nem `@media`) e testar a acessibilidade (contraste de cores e navegação por teclado).
 - Validar a página com o [validador de HTML do W3C](https://validator.w3.org/).
